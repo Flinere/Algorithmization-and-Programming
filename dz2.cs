@@ -156,7 +156,7 @@ while (1 != 10)
                     {
                         Console.WriteLine("Ваше имя: " + userFirstName + "\n" + "Ваша фамилия: " + userLastName + "\n" + "Знак зодиака: strelec");
                     }
-                    else (userData >= 23 && userData <= 31)
+                    else if (userData >= 23 && userData <= 31)
                     {
                         Console.WriteLine("Ваше имя: " + userFirstName + "\n" + "Ваша фамилия: " + userLastName + "\n" + "Знак зодиака: kozerog");
                     }
